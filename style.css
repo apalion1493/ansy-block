@@ -13,6 +13,11 @@
     position: relative;
 }
 
+.product-page__tab-description-parameters td a {
+    text-decoration: none;
+    color: #555555;
+}
+
 .product-page__tab-description-parameters tr td:first-child {
     min-width: 73px;
     padding-right: 57px;
@@ -39,6 +44,11 @@
 
 .circle-color__grey {
     background: #9C9C9C;
+}
+
+.new-design2020 a.media-heading:hover {
+    text-decoration: none;
+    color: #bea267 !important;
 }
 
 @media (max-width: 575.98px) {
