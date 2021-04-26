@@ -1,0 +1,114 @@
+.new-design2020  .filtration__wrapper-color .panel {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: initial;
+    margin-bottom: 20px;
+}
+
+.filtration__wrapper-color .checkbox-block {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 0;
+    margin-right: 20px;
+}
+
+.filtration__wrapper-color .checkmark {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.new-design2020 .filtration__wrapper-color .checkmark:after {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: initial;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.new-design2020 .color-white .checkmark:after {
+    border: 1px solid #F0F0F0;
+    background: #FBFAEA;
+}
+
+.new-design2020 .color-yellow .checkmark:after {
+    background: #FCE832;
+}
+
+.new-design2020 .color-yellow-dull .checkmark:after {
+    background: #EBE18D;
+}
+
+.new-design2020 .color-gold .checkmark:after {
+    background: radial-gradient(50% 50% at 50% 50%, #F8EAA2 25.38%, #E6D372 48.3%, #C4AA3D 100%);
+}
+
+.new-design2020 .color-grey .checkmark:after {
+    background: #9C9C9C;
+}
+
+.new-design2020 .color-pearl .checkmark:after {
+    background: #DF817C;
+}
+
+.new-design2020 .color-red .checkmark:after {
+    background: #D91919;
+}
+
+.new-design2020 .color-brown .checkmark:after {
+    background: #693B10;
+}
+
+.new-design2020 .color-skiey .checkmark:after {
+    background: #9FDDE6;
+}
+
+.new-design2020 .color-turquoise .checkmark:after {
+    background: #31C5AB;
+}
+
+.new-design2020 .color-green .checkmark:after {
+    background: #33A420;
+}
+
+.new-design2020 .color-swampy .checkmark:after {
+    background: #608343;
+}
+
+.new-design2020 .color-blue .checkmark:after {
+    background: #296BEA;
+}
+
+.new-design2020 .color-purple .checkmark:after {
+    background: #4A397B;
+}
+
+.new-design2020 .color-dark-blue .checkmark:after {
+    background: #141657;
+}
+
+.new-design2020 .color-rainbow .checkmark:after {
+    background: conic-gradient(from 180deg at 50% 50%, #FF8271 0deg, rgba(255, 190, 113, 0.824356) 53.86deg, #ECEF81 108.23deg, #8BE299 162.61deg, #6ECA98 203.87deg, #41B0EF 252.62deg, #9146F0 308.87deg, #EE3B70 340.75deg, #FF8271 360deg);
+}
+
+.filtration__wrapper-color .checkbox-block input.checked~.checkmark:before {
+    content: '';
+    width: 33px;
+    height: 33px;
+    left: 50%;
+    transform: translateX(-52%);
+    border: 1px solid #BEA267;
+    position: absolute;
+    top: -4px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .filtration__wrapper-color .panel {
+        max-width: 220px;
+    }
+}
