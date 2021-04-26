@@ -95,15 +95,9 @@
     background: conic-gradient(from 180deg at 50% 50%, #FF8271 0deg, rgba(255, 190, 113, 0.824356) 53.86deg, #ECEF81 108.23deg, #8BE299 162.61deg, #6ECA98 203.87deg, #41B0EF 252.62deg, #9146F0 308.87deg, #EE3B70 340.75deg, #FF8271 360deg);
 }
 
-.filtration__wrapper-color .checkbox-block input.checked~.checkmark:before {
-    content: '';
-    width: 33px;
-    height: 33px;
-    left: 50%;
-    transform: translateX(-52%);
-    border: 1px solid #BEA267;
-    position: absolute;
-    top: -4px;
+.filtration__wrapper-color .checkbox-block input.checked~.checkmark:after {
+    border: solid 4px #ffffff;
+    box-shadow: 0 0 0 2px #bea267;
     border-radius: 50%;
 }
 
